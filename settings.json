@@ -16,22 +16,11 @@
     // Custom Keyboard Shortcuts
     "actions":
     [
-        {
-            "command":
-            {
-                "action": "setColorScheme",
-                "colorScheme": "TokyoNightLight"
-            },
-            "keys": "f13"
-        },
-        {
-            "command":
-            {
-                "action": "setColorScheme",
-                "colorScheme": "TokyoNight"
-            },
-            "keys": "f14"
-        },
+        //Ubuntu is index 2, Powershell is index 0, Windows Powershell is index 1
+        { "command": { "action": "newTab", "index": 2 }, "keys": "ctrl+shift+1" },
+        { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+shift+2" },
+        { "command": { "action": "newTab", "index": 1 }, "keys": "ctrl+shift+3" },
+        
         // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
         // These two lines additionally bind them to Ctrl+C and Ctrl+V.
         // To learn more about selection, visit https://aka.ms/terminal-selection
@@ -75,8 +64,7 @@
             },
             {
                 "name": "Windows PowerShell",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"
             },
             {
                 "name": "Command Prompt",
@@ -89,27 +77,6 @@
     // Color Schemes
     "schemes":
     [
-        {
-            "name": "TokyoNightLight",
-            "black": "#0f0f14",
-            "red": "#8c4351",
-            "green": "#33635c",
-            "yellow": "#8f5e15",
-            "blue": "#34548a",
-            "purple": "#5a4a78",
-            "cyan": "#0f4b6e",
-            "white": "#828594",
-            "brightBlack": "#0f0f14",
-            "brightRed": "#8c4351",
-            "brightGreen": "#33635c",
-            "brightYellow": "#8f5e15",
-            "brightBlue": "#34548a",
-            "brightPurple": "#5a4a78",
-            "brightCyan": "#0f4b6e",
-            "brightWhite": "#828594",
-            "background": "#cbccd1",
-            "foreground": "#4c505e"
-        },
         {
             "name": "TokyoNight",
             "black": "#363b54",
