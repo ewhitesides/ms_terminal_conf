@@ -20,7 +20,7 @@
         { "command": { "action": "newTab", "index": 2 }, "keys": "ctrl+shift+1" },
         { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+shift+2" },
         { "command": { "action": "newTab", "index": 1 }, "keys": "ctrl+shift+3" },
-        
+
         // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
         // These two lines additionally bind them to Ctrl+C and Ctrl+V.
         // To learn more about selection, visit https://aka.ms/terminal-selection
@@ -64,7 +64,8 @@
             },
             {
                 "name": "Windows PowerShell",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true
             },
             {
                 "name": "Command Prompt",
