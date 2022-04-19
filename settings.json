@@ -56,16 +56,19 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "source": "Windows.Terminal.Wsl",
                 "commandline": "wsl.exe ~ -d Ubuntu",
+                "hidden": false
             },
             {
                 "name": "PowerShell",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "source": "Windows.Terminal.PowershellCore"
+                "source": "Windows.Terminal.PowershellCore",
+                "hidden": false
             },
             {
                 "name": "Windows PowerShell",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true
+                "colorScheme": "Campbell Powershell",
+                "hidden": false
             },
             {
                 "name": "Command Prompt",
