@@ -47,9 +47,11 @@
             "historySize": 30000,
             "scrollbarState": "hidden",
             "colorScheme": "TokyoNight",
-            "fontFace": "Cascadia Mono PL",
+            "font": {
+                "face": "Cascadia Mono PL"
+            },
             "useAcrylic": true,
-            "acrylicOpacity": 0.8
+            "opacity": 80
         },
         "list":
         [
