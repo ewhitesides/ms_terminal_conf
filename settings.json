@@ -49,9 +49,7 @@
             "colorScheme": "TokyoNight",
             "font": {
                 "face": "Cascadia Mono PL"
-            },
-            "useAcrylic": true,
-            "opacity": 85
+            }
         },
         "list":
         [
