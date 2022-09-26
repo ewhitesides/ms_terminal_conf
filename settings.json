@@ -16,7 +16,7 @@
     // Custom Keyboard Shortcuts
     "actions":
     [
-        //Ubuntu is index 2, Powershell is index 0, Windows Powershell is index 1
+        //Ubuntu is index 0, Powershell is index 1, Windows Powershell is index 2
         { "command": { "action": "newTab", "index": 0 }, "keys": "ctrl+shift+1" },
         { "command": { "action": "newTab", "index": 1 }, "keys": "ctrl+shift+2" },
         { "command": { "action": "newTab", "index": 2 }, "keys": "ctrl+shift+3" },
