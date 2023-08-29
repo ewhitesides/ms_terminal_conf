@@ -1,10 +1,10 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
-            "command": 
+            "command":
             {
                 "action": "newTab",
                 "index": 0
@@ -12,7 +12,7 @@
             "keys": "ctrl+shift+1"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "newTab",
                 "index": 1,
@@ -25,7 +25,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "newTab",
                 "index": 2
@@ -33,7 +33,7 @@
             "keys": "ctrl+shift+3"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -42,7 +42,7 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -57,28 +57,28 @@
     "centerOnLaunch": true,
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-    "disabledProfileSources": 
+    "disabledProfileSources":
     [
         "Windows.Terminal.Azure"
     ],
     "initialCols": 120,
     "initialRows": 30,
     "launchMode": "focus",
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "colorScheme": "TokyoNight",
             "cursorColor": "#7AA2F7",
             "cursorShape": "filledBox",
-            "font": 
+            "font":
             {
                 "face": "Cascadia Mono PL"
             },
             "historySize": 30000,
             "scrollbarState": "hidden"
         },
-        "list": 
+        "list":
         [
             {
                 "commandline": "wsl.exe ~ -d Ubuntu",
@@ -107,7 +107,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#0C0C0C",
