@@ -1,115 +1,105 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
-    [
+    "actions": [
         {
-            "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command":
-            {
+            "command": {
                 "action": "newTab",
                 "index": 0,
                 "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}"
             },
-            "id": "User.newTab.B9151F06",
-            "keys": "ctrl+shift+1"
+            "id": "User.newTab.B9151F06"
         },
         {
-            "command":
-            {
+            "command": {
                 "action": "newTab",
                 "index": 1,
-                "profile": "{2c4de342-38b7-51cf-b940-2309a097f518}"
-            },
-            "id": "User.newTab.DFF3A112",
-            "keys": "ctrl+shift+2"
-        },
-        {
-            "command":
-            {
-                "action": "newTab",
-                "index": 2,
                 "profile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"
             },
-            "id": "User.newTab.8539FF8F",
-            "keys": "ctrl+shift+3"
+            "id": "User.newTab.8539FF8F"
         },
         {
-            "command":
-            {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "keybindings": [
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
         },
         {
-            "command":
-            {
-                "action": "copy",
-                "singleLine": false
-            },
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
         },
         {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
+            "id": "User.newTab.B9151F06",
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "id": "User.newTab.8539FF8F",
+            "keys": "ctrl+shift+2"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
         }
     ],
     "centerOnLaunch": true,
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "disabledProfileSources":
-    [
+    "disabledProfileSources": [
         "Windows.Terminal.Azure"
     ],
     "initialCols": 120,
     "initialRows": 30,
     "launchMode": "focus",
-    "newTabMenu":
-    [
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles":
-    {
-        "defaults":
-        {
+    "profiles": {
+        "defaults": {
             "colorScheme": "TokyoNight",
             "cursorColor": "#7AA2F7",
             "cursorShape": "filledBox",
-            "font":
-            {
+            "font": {
                 "face": "Cascadia Mono PL"
             },
             "historySize": 30000,
-            "scrollbarState": "hidden",
-            "opacity": 75,
-            "useAcrylic": true
+            "scrollbarState": "hidden"
         },
-        "list":
-        [
-            {
-                "commandline": "wsl.exe ~ -d Ubuntu",
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
+        "list": [
             {
                 "elevate": false,
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "colorScheme": "Campbell Powershell",
@@ -124,31 +114,7 @@
             }
         ]
     },
-    "schemes":
-    [
-        {
-            "background": "#282A36",
-            "black": "#21222C",
-            "blue": "#BD93F9",
-            "brightBlack": "#6272A4",
-            "brightBlue": "#D6ACFF",
-            "brightCyan": "#A4FFFF",
-            "brightGreen": "#69FF94",
-            "brightPurple": "#FF92DF",
-            "brightRed": "#FF6E6E",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFFA5",
-            "cursorColor": "#F8F8F2",
-            "cyan": "#8BE9FD",
-            "foreground": "#F8F8F2",
-            "green": "#50FA7B",
-            "name": "Dracula",
-            "purple": "#FF79C6",
-            "red": "#FF5555",
-            "selectionBackground": "#44475A",
-            "white": "#F8F8F2",
-            "yellow": "#F1FA8C"
-        },
+    "schemes": [
         {
             "background": "#16161E",
             "black": "#363B54",
